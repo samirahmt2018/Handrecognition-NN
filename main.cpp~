@@ -59,7 +59,7 @@ int main( int argc, const char** argv)
       cout<<"ERROR : cannot read"<<endl;
       return -1;
     }
-    Rect roi(340,100,250,250); 
+    Rect roi(340,100,250,250); //defeining a rectangle called roi wih the given dimensions
     img_roi=img(roi); 
     cvtColor(img_roi,img_gray,CV_RGB2GRAY);
     
